@@ -11,7 +11,7 @@ use function PHPUnit\Framework\callback;
 //blade.php -> @methode
 Route::get('/hello', function () {
     return ' hello ilma ';
-});->name('hello');
+})->name('hello');
 
 
 Route::get('/', function () {
