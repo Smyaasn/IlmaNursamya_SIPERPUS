@@ -120,7 +120,7 @@ class BookController extends Controller
     {
         $data['books'] = Book::all();
         $pdf = Pdf::loadView('books.print', $data);
-        return $pdf->stream('books.pdf');
+        return $pdf->download('books.pdf');
     }
 
     public function export()

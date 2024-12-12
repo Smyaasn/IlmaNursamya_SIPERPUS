@@ -5,13 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>List Data Buku</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: 0 auto;
+            width: 80%;
+        }
+
+        th, td {
+            text-align: center;
+            vertical-align: middle;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 
 <body>
-    <h1 style="text-align: center;">Data Buku</h1>
+    <h1 style="text-align: center;">Data Buku Perpustakaan Sejari Membaca</h1>
     <p style="text-align: center;">Laporan Data Buku Tahun 2024</p>
     <br />
-    <table border="1" style="border-collapse: collapse; align-content: center;">
+    <table border="1">
         <thead>
             <tr>
                 <th>NO</th>
